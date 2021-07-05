@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="47.854222">
+<testcase classname="Background Feature" name="Admin Functionality" time="13.236815">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I am login page.......................................................undefined
+Then I enter username "<username>"..........................................undefined
+Then I enter password "<password>"..........................................undefined
+Then I click on login button................................................undefined
+Given I clicked Admin link..................................................skipped
+Then I entered admin username"amit".........................................skipped
+]]></failure>
+</testcase>
+<testcase classname="Background Feature" name="Leave Functionality" time="11.917297">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I am login page.......................................................undefined
+Then I enter username "<username>"..........................................undefined
+Then I enter password "<password>"..........................................undefined
+Then I click on login button................................................undefined
+Given I clicked on Leave tab................................................skipped
+Then I enter leave employee name "amit".....................................skipped
+]]></failure>
+</testcase>
+<testcase classname="Login Feature" name="Login Functionality" time="11.244626">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I am login page.......................................................undefined
+Then I enter username "Admin"...............................................undefined
+Then I enter password "admin123"............................................undefined
+Then I click on login button................................................undefined
+And I verify the title of the page..........................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Login Feature" name="Login Functionality 2" time="11.455484">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I am login page.......................................................undefined
+Then I enter username "<username>"..........................................undefined
+Then I enter password "<password>"..........................................undefined
+Then I click on login button................................................undefined
+Given I clicked on PIM tab..................................................skipped
+Then I enter PIM Id "228855"................................................skipped
+]]></failure>
+</testcase>
+</testsuite>
